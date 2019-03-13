@@ -28,7 +28,7 @@ CREATE TABLE comments (
 );
 
 INSERT INTO genres (name)
-VALUES ('action'), ('comedy'), ('documentary'), ('drama'), ('horror'), ('romance'), ('sci-fi'), ('cult');
+VALUES ('Action'), ('Comedy'), ('Documentary'), ('Drama'), ('Horror'), ('Romance'), ('Sci-Fi'), ('Cult');
 
 INSERT INTO movies (title, genre_id, img_url)
 VALUES ('Hitchhikers Guide to the Galaxy', 7, 'https://m.media-amazon.com/images/I/81fpbxyyabL._AC_UL872_FMwebp_QL65_.jpg'),
